@@ -11,12 +11,24 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        setupHierarchy()
+        setupLayout()
+        setupView()
+    }
+    
+
+    // MARK: - Settings
+    private func setupHierarchy() {
+    
+    }
+    
+    private func setupLayout() {
+    
     }
     
     private func setupView() {
         view.backgroundColor = UIColor.black
     }
-
 }
 
